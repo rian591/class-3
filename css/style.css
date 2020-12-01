@@ -1,0 +1,75 @@
+body{
+    margin: 10px;
+    padding: 0;
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: indigo;
+}
+.rectangle{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: royalblue;
+    border-radius: 50%;
+}
+.oval{
+    width: 80px;
+    height: 40px;
+    background-color:black;
+    border-radius: 100px/50px;
+}
+.traingleup{
+    width: 0;
+    height: 0;
+    border-bottom:80px solid indigo ;
+    border-left: 40px solid transparent;
+    border-right:40px solid transparent;
+}
+.traingledown{
+    width: 0;
+    height: 0;
+    border-top:80px solid yellow ;
+    border-left: 40px solid transparent;
+    border-right:40px solid transparent;
+}
+.traingleleft{
+    width: 0;
+    height: 0;
+    border-right:80px solid orange ;
+    border-top: 40px solid transparent;
+    border-bottom:40px solid transparent;
+}
+.traingleright{
+    width: 0;
+    height: 0;
+    border-left:80px solid orange ;
+    border-top: 40px solid transparent;
+    border-bottom:40px solid transparent;
+}
+.sobuj{
+    width: 150px;
+    height: 70px;
+    background-color: green;
+    border-radius: 15px;
+    position: relative;
+
+}
+.lal{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    position: absolute;
+
+}
